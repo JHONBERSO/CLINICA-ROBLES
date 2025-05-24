@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:srcCompat="@drawable/fondocr"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/fondocr">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView4"
+        android:layout_width="241dp"
+        android:layout_height="215dp"
+        android:layout_margin="16dp"
+        android:contentDescription="Doctor"
+        android:scaleType="centerCrop"
+        android:src="@drawable/doctor1"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+
+    <TextView
+        android:id="@+id/textViewMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="¡Reserva confirmada!"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="29sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewEspecialidadReserva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidad: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewDoctorReserva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Doctor"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <FrameLayout
+        android:layout_width="297dp"
+        android:layout_height="45dp"
+        android:scaleType="centerCrop">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="177dp"
+        android:layout_height="69dp"
+        android:scaleType="centerCrop">
+
+        <Button
+            android:id="@+id/Salir"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:text="Salir" />
+    </FrameLayout>
+
+
+</LinearLayout>
+
